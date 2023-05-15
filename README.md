@@ -9,7 +9,7 @@ npm intall @cloudparker/easy-libphonenumber-svelte@latest --save-dev
 ```
 
 # Usage
-```ts
+```html
 <script lang="ts">
 	import EasyLibphonenumber from '@cloudparker/easy-libphonenumber-svelte';
 
@@ -23,5 +23,9 @@ npm intall @cloudparker/easy-libphonenumber-svelte@latest --save-dev
 
 <h1>easy-libphonenumber-svelte lib demo</h1>
 
-<EasyLibphonenumber on:load={handleLoad} />
+<EasyLibphonenumber
+	scriptUrl="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/0.4.42/libphonenumber-js.min.js"
+	on:load={handleLoad}
+/>
+
 ```

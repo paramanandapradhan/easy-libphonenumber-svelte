@@ -11,4 +11,7 @@
 
 <h1>easy-libphonenumber-svelte lib demo</h1>
 
-<EasyLibphonenumber on:load={handleLoad} />
+<EasyLibphonenumber
+	scriptUrl="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/0.4.42/libphonenumber-js.min.js"
+	on:load={handleLoad}
+/>

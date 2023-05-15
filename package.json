@@ -9,7 +9,7 @@
 		"javascript",
 		"libphonenumber"
 	],
-	"repository": "",
+	"repository": "https://github.com/paramanandapradhan/easy-libphonenumber-svelte",
 	"homepage": "https://cloudparker.com",
 	"main": "./dist/index.js",
 	"scripts": {
