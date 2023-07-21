@@ -1,6 +1,6 @@
 {
 	"name": "@cloudparker/easy-libphonenumber-svelte",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Easy way to install libphonenumber from CDN",
 	"license": "MIT",
 	"author": "cloudparker.com",
